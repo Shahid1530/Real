@@ -36,6 +36,17 @@ function Navbar() {
       </ul>
       <div>
         {authState ? (
+      <>
+        <Link to = '/add'>
+         <button  style={{
+            backgroundColor: '#dc3545', color: 'white', padding: '10px 15px', border: 'none', borderRadius: '6px',
+            fontSize: '16px', cursor: 'pointer', transition: 'background 0.3s'
+          }}
+            onMouseOver={(e) => e.target.style.backgroundColor = '#c82333'}
+            onMouseOut={(e) => e.target.style.backgroundColor = '#dc3545'}>
+            <FaUnlock style={{ marginRight: '5px' }} /> Add listing
+          </button>
+          </Link>
           <button onClick={handleLogout} style={{
             backgroundColor: '#dc3545', color: 'white', padding: '10px 15px', border: 'none', borderRadius: '6px',
             fontSize: '16px', cursor: 'pointer', transition: 'background 0.3s'
@@ -44,6 +55,7 @@ function Navbar() {
             onMouseOut={(e) => e.target.style.backgroundColor = '#dc3545'}>
             <FaUnlock style={{ marginRight: '5px' }} /> Logout
           </button>
+        </>
         ) : (
           <Link to="/login" style={{ textDecoration: 'none' }}>
             <button style={{

@@ -20,7 +20,7 @@ const PropertyForm = () => {
     e.preventDefault();
     let sendtoken = localStorage.getItem('token')
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/products/createProduct", {
+      const response = await fetch("https://backend-v0ii.onrender.com/api/products/createProduct", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

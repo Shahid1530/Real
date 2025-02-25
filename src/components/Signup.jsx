@@ -123,7 +123,7 @@ function Signup() {
 }
 
 // Styles (Same as before)
-const containerStyle = { display: "flex", height: "40rem", width: "50rem", boxShadow: "0 6px 15px rgba(0, 0, 0, 0.15)", backgroundColor: "#f8fafc", marginTop: "2rem", marginLeft: "auto", marginRight: "auto", borderRadius: "12px", overflow: "hidden" };
+const containerStyle = { display: "flex", height: "60rem", width: "50rem", boxShadow: "0 6px 15px rgba(0, 0, 0, 0.15)", backgroundColor: "#f8fafc", marginTop: "2rem", marginLeft: "auto", marginRight: "auto", borderRadius: "12px", overflow: "hidden" };
 const leftStyle = { display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", background: "linear-gradient(135deg, #3b82f6, #1e40af)", width: "40%", color: "white", padding: "2rem", textAlign: "center" };
 const rightStyle = { display: "flex", flexDirection: "column", alignItems: "center", width: "60%", padding: "2rem" };
 const inputStyle = { height: "2.5rem", width: "90%", border: "none", borderBottom: "2px solid #94a3b8", outline: "none", transition: "border-color 0.3s", fontSize: "1rem", color: "#374151", padding: "0.5rem 0", backgroundColor: "transparent", marginBottom: "1rem" };
